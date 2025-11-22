@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+body{
+    font-family: 'Science Gothic',Arial;
+    background-color: rgb(44, 118, 147);
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.221);
+    width: 25vw;
+    height: 60vh;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.user,.pass,.mail{
+    height: 25px;
+    width: 20vw;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+input::placeholder{
+    color: rgba(44, 118, 147, 0.772);
+    font-weight: bold;
+}
+#username,#password,#email{
+    border: none;
+    height: 25px;
+    width: 270px;
+    color: black;
+    font-weight: bold;
+}
+#username:focus,#password:focus,#email:focus{
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#sub{
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: white;
+    background-color: rgb(26, 65, 133);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+}
+#sub:hover{
+    background-color: rgb(32, 62, 113);
+}
+p{
+    color: white;
+}
+a{
+    color: white;
+}
